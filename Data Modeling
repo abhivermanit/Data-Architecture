@@ -1,0 +1,9 @@
+The creation of conceptual models to represent the structure of data and its relationships within a database.
+
+First Stage -- Database Design 
+
+Now we create conceptual models and define data structure 
+
+Logical data models define the structure of the data elements and their relationships without considering how they will be physically implemented. 
+Physical data models translate the logical model into a **schema** that can be implemented in a database, specifying tables, columns, data types, and indexes.
+
