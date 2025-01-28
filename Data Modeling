@@ -5,5 +5,18 @@ First Stage -- Database Design
 Now we create conceptual models and define data structure 
 
 Logical data models define the structure of the data elements and their relationships without considering how they will be physically implemented. 
-Physical data models translate the logical model into a **schema** that can be implemented in a database, specifying tables, columns, data types, and indexes.
+Physical data models translate the logical model into a schema that can be implemented in a database, specifying tables, columns, data types, and indexes.
+
+
+#Schema
+##How do you decide whether to use a normalized or denormalized schema in a data warehouse?
+
+Normalized schemas -- OLTP systems -- to reduce redundancy and ensure data integrity.
+A normalized schema is created by dividing data into smaller tables and linking them with foreign keys. 
+
+Denormalized schemas -- like star or snowflake schemas -- are often used in data warehouses to optimize query performance and simplify complex queries.
+
+A denormalized schema is a database design that combines data from multiple tables into a single table.
+
+##Both the star and snowflake are data warehouse design approaches
 
