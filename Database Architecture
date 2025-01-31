@@ -1,0 +1,20 @@
+#SQL vs Not Only SQL
+
+- NoSQL have dynamic schemas
+- Horizontally scalable vs Vertically scalable
+
+
+##NoSQL 
+- Is a type of database that uses non-relational data structures, such as documents, graph databases, and key-value stores to store and retrieve data.
+- NoSQL databases are non-relational. 
+- You can create documents without having to first define their structure.
+- You can use column-oriented, document-oriented, graph-based, or KeyValue stores for your data.
+
+
+##Database Scaling 
+
+SQL databases are vertically scalable in most situations. That means you can increase the load on a single server by adding more CPU, RAM, or SSD capacity. 
+
+NoSQL databases are horizontally scalable. You can handle higher traffic via a process called sharding, which adds more servers to your NoSQL database.
+
+
